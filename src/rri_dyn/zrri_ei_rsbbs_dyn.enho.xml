@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>Dynamische RSBBS</SHORTTEXT>
+   <SPOT_NAME>RS_BBS_DYNAMIC_ENHS</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <IMPL_NAME>ZRRI_BI_RSBBS_DYN</IMPL_NAME>
+     <BADI_NAME>RS_BBS_BADI_DYNAMIC</BADI_NAME>
+     <IMPL_CLASS>ZCL_RRI_DYN_IMPL</IMPL_CLASS>
+     <IMPL_SHORTTEXT>Dynamische Bestimmung von Sprungzielen zur Laufzeit</IMPL_SHORTTEXT>
+     <ACTIVE>X</ACTIVE>
+     <RUNTIME_BEHAVIOR>
+      <SHORTTEXT>Implementierung wird aufgerufen</SHORTTEXT>
+     </RUNTIME_BEHAVIOR>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
